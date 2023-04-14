@@ -1,0 +1,49 @@
+:root{
+    --primary-text-color: #FFF;
+    --color-primary: #FFC107;
+    --color-primary-light: #ffd350; 
+}
+header nav{
+    margin-top: 1rem;
+}
+header .navbar-brand{
+    font-size: 1.5rem;
+}
+.navbar-toggler{
+    border: solid;
+    color: var(--primary-text-color);
+}
+.icon-nav{
+    color: var(--primary-text-color);;
+    font-size: 2rem;
+}
+main .Carousel img{
+    min-height: 60vh;
+    max-height: 100vh;
+    object-fit: cover;
+    filter: grayscale(50%);
+}
+.Carousel #carousel{
+    position: relative;
+}
+.Carousel #carousel .overlay{
+    z-index: 1; 
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+main .Carousel .overlay a:hover, main #place-time a{
+    text-decoration: none;
+}
+.my-btn-primary{
+    color: white;
+    background-color: var(--color-primary);
+}
+.my-btn-primary:hover{
+    color: whitesmoke;
+    background-color: var(--color-primary-light);
+}
